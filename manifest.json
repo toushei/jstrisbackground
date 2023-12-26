@@ -1,0 +1,14 @@
+{
+  "name": "Jstris Background",
+  "description": "Jstris Background",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["background.js"],
+      "matches": [
+        "https://jstris.jezevec10.com/*"
+      ]
+    }
+  ]
+}
